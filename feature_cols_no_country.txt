@@ -1,0 +1,6 @@
+tier_encoded
+num_skills
+cs_skill_count
+data_skill_count
+education_level
+experience_years

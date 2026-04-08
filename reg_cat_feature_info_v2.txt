@@ -1,0 +1,16 @@
+Structured columns:
+tier_encoded
+num_skills
+cs_skill_count
+data_skill_count
+education_level
+experience_years
+required_experience_years
+experience_gap
+micro_match_weight
+just_exp_penalty
+just_missing_skill_count
+just_domain_penalty
+bert_sim_score
+
+PCA components: 64 (resume) + 64 (jd)

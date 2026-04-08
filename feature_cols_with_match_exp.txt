@@ -1,0 +1,11 @@
+tier_encoded
+num_skills
+cs_skill_count
+data_skill_count
+education_level
+experience_years
+required_experience_years
+experience_gap
+micro_match_count
+micro_match_weight
+micro_match_ratio

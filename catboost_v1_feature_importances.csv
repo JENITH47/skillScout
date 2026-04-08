@@ -1,0 +1,17 @@
+feature,importance
+bert_sim_score,14.749602236905062
+required_experience_years,6.052418237777495
+num_skills,4.187985578920701
+education_level,4.162466845007382
+just_exp_penalty,3.8873525924965877
+PCA components per side: 32,3.5423520758011318
+just_domain_penalty,2.9853897011618034
+experience_gap,1.698448785582186
+Final feature order: [structured] + [resume_pca_*] + [jd_pca_*],1.4559520599744138
+Structured feature columns:,1.1934633681976266
+experience_years,1.0970934799023246
+tier_encoded,0.40665902656628194
+micro_match_weight,0.13054666432321108
+data_skill_count,0.08463865856639388
+cs_skill_count,0.057955270490180136
+just_missing_skill_count,0.002169760187743686
