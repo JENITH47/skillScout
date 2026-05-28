@@ -9,7 +9,14 @@ import pandas as pd
 import tempfile
 import os
 import io
+import sys
 from datetime import datetime
+from pathlib import Path
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+SRC_DIR = PROJECT_ROOT / "src"
+if str(SRC_DIR) not in sys.path:
+    sys.path.insert(0, str(SRC_DIR))
 
 # ── Page Config ──
 st.set_page_config(
@@ -279,12 +286,12 @@ st.markdown("""
 # ── Cached Resources ──
 @st.cache_resource
 def get_inference_pipeline():
-    from inference_pipeline import InferencePipeline
+    from skillscout.inference_pipeline import InferencePipeline
     return InferencePipeline()
 
 @st.cache_resource
 def get_bert_model():
-    from ranking_feedback_nlp import load_bert
+    from skillscout.ranking_feedback_nlp import load_bert
     return load_bert()
 
 
@@ -423,7 +430,7 @@ if run_button:
     progress_bar = st.progress(0, text="🔄 Initializing AI models...")
 
     # Pre-load models during the progress display
-    from ranking_feedback_nlp import rank_resumes
+    from skillscout.ranking_feedback_nlp import rank_resumes
 
     def update_progress(current, total, msg):
         pct = int((current / total) * 100) if total > 0 else 0

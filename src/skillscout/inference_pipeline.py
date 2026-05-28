@@ -4,19 +4,22 @@ import numpy as np
 import pandas as pd
 import warnings
 from typing import Dict, Iterable
+from pathlib import Path
 
 
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+MODELS_DIR = PROJECT_ROOT / "models"
 
 
-CAT_MODEL_PATH = "stack_cat.pkl"
-XGB_MODEL_PATH = "stack_xgb.pkl"
-LGB_MODEL_PATH = "stack_lgb.pkl"
-META_MODEL_PATH = "stack_meta.pkl"  
+CAT_MODEL_PATH = MODELS_DIR / "stack_cat.pkl"
+XGB_MODEL_PATH = MODELS_DIR / "stack_xgb.pkl"
+LGB_MODEL_PATH = MODELS_DIR / "stack_lgb.pkl"
+META_MODEL_PATH = MODELS_DIR / "stack_meta.pkl"  
 
 
-PCA_RESUME_PATH = "pca_resume.pkl"
-PCA_JD_PATH = "pca_jd.pkl"
-TIER_ENCODER_PATH = "tier_encoder.pkl"
+PCA_RESUME_PATH = MODELS_DIR / "pca_resume.pkl"
+PCA_JD_PATH = MODELS_DIR / "pca_jd.pkl"
+TIER_ENCODER_PATH = MODELS_DIR / "tier_encoder.pkl"
 
 
 STRUCTURED_COLS = [

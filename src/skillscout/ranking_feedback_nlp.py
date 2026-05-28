@@ -15,7 +15,11 @@ import warnings
 from datetime import datetime
 from typing import Dict, List, Optional, Set, Tuple
 from sentence_transformers import SentenceTransformer
-from inference_pipeline import InferencePipeline
+
+try:
+    from .inference_pipeline import InferencePipeline
+except ImportError:  # Allows direct execution during local debugging.
+    from inference_pipeline import InferencePipeline
 
 warnings.filterwarnings("ignore")
 

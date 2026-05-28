@@ -1,0 +1,3 @@
+notebooks/*.ipynb linguist-detectable=false
+data/** linguist-vendored
+models/** linguist-vendored

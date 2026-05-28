@@ -1,0 +1,1 @@
+AI resume-JD matching with BERT embeddings, ML ensembles, bias-aware scoring, and a Streamlit recruiter dashboard.
