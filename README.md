@@ -182,7 +182,10 @@ Add product screenshots or GIFs here after publishing the app.
 
 | Dashboard | Ranking Results | Candidate Feedback |
 | --- | --- | --- |
-| `assets/dashboard.png` | `assets/ranking.png` | `assets/feedback.png` |
+| `<img width="1834" height="870" alt="Screenshot 2026-05-29 103330" src="https://github.com/user-attachments/assets/8f626ae1-a12a-4d9f-be4c-4bb9b2f51dac" />
+` | `<img width="1839" height="863" alt="Screenshot 2026-05-29 103605" src="https://github.com/user-attachments/assets/ce36fe74-0b03-4166-a075-6275f7f5fa30" />
+` | `<img width="1370" height="900" alt="image" src="https://github.com/user-attachments/assets/962088c2-088b-4ebb-a85d-8be54e47d680" />
+` |
 
 ## Developer Commands
 
