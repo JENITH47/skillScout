@@ -11,6 +11,10 @@ SkillScout helps recruiters compare resumes against a target job description usi
 
 The project is designed for practical hiring workflows: upload resumes, paste a job description, review match scores, inspect missing skills, and use the generated feedback as decision support. It also includes bias-mitigation hooks for name-based and college-tier signals in the Indian hiring context.
 
+## App Preview
+
+![SkillScout Streamlit recruiter dashboard](assets/dashboard.png)
+
 ## Features
 
 - Resume-to-job-description matching using semantic embeddings and structured features
@@ -178,14 +182,17 @@ Large raw datasets, private resumes, generated outputs, and embedding dumps are 
 
 ## Screenshots
 
-Add product screenshots or GIFs here after publishing the app.
-
 | Dashboard | Ranking Results | Candidate Feedback |
 | --- | --- | --- |
-| `<img width="1834" height="870" alt="Screenshot 2026-05-29 103330" src="https://github.com/user-attachments/assets/8f626ae1-a12a-4d9f-be4c-4bb9b2f51dac" />
-` | `<img width="1839" height="863" alt="Screenshot 2026-05-29 103605" src="https://github.com/user-attachments/assets/ce36fe74-0b03-4166-a075-6275f7f5fa30" />
-` | `<img width="1370" height="900" alt="image" src="https://github.com/user-attachments/assets/962088c2-088b-4ebb-a85d-8be54e47d680" />
-` |
+| <img width="100%" alt="SkillScout dashboard screenshot" src="https://github.com/user-attachments/assets/8f626ae1-a12a-4d9f-be4c-4bb9b2f51dac" /> | <img width="100%" alt="SkillScout ranking results screenshot" src="https://github.com/user-attachments/assets/ce36fe74-0b03-4166-a075-6275f7f5fa30" /> | <img width="100%" alt="SkillScout candidate feedback screenshot" src="https://github.com/user-attachments/assets/962088c2-088b-4ebb-a85d-8be54e47d680" /> |
+
+## Analysis Artifacts
+
+These plots are included as project artifacts to show the analysis workflow behind the ranking pipeline.
+
+| Dataset Analysis | Match + Experience | Match + Justification |
+| --- | --- | --- |
+| ![Dataset analysis](assets/dataset_analysis.png) | ![Dataset analysis with match and experience](assets/dataset_analysis_with_match_and_exp.png) | ![Dataset analysis with match and justification](assets/dataset_analysis_with_match_and_justification.png) |
 
 ## Developer Commands
 
